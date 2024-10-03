@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Rocket Industry</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/carousel-fade.css">
+	<link rel="stylesheet" href="css/fsbanner.css">
+	<link rel="stylesheet" href="css/countdown.css">
+	<link rel="stylesheet" href="css/simplelightbox.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/estilos.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/fsbanner.js"></script>
+	<script src="js/jquery.downCount.js"></script>
+	<script src="js/jquery.vide.js"></script>
+	<script src="js/simple-lightbox.js"></script>
+	<script src="js/numscroller-1.0.js"></script>
+	<script src="js/backtotop.js"></script>
+	<script src="js/smooth_navigation.js"></script>
+	<script src="js/wow.min.js"></script>
+
+	<script>
+		new WOW().init();
+	</script>
+
+</head>
+<body>
+
+<!-- start interface -->
+<div id="interface" class="container-fluid">
+
+<!-- start menu -->	
+<nav id="menu" class="navbar navbar-expand-xl row">
+	<header>
+		<a href="#" class="navbar-brand titulo1">Rocket Industry</a>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#menubar"><span class="fa fa-bars"></span></button>
+	</header>
+
+	<div id="menubar" class="collapse navbar-collapse">
+		<ul class="navbar-nav nav mx-xl-5 px-xl-5 mx-0 px-0 bareffect">
+			<li class="position-relative"><a href="#recursos" class="nav-link px-2 mx-2 menulink">recursos</a></li>
+			<li class="position-relative"><a href="#equipe" class="nav-link px-2 mx-2 menulink">equipe</a></li>
+			<li class="position-relative"><a href="#servicos" class="nav-link px-2 mx-2 menulink">serviços</a></li>
+			<li class="position-relative"><a href="#galeria" class="nav-link px-2 mx-2 menulink">galeria</a></li>
+			<li class="position-relative"><a href="#contato" class="nav-link px-2 mx-2 menulink">contato</a></li>
+		</ul>
+
+		<form action="" class="form-inline">
+			<div class="input-group">
+				<input type="search" placeholder="buscar" class="form-control">
+				<div class="input-group-addon">
+					<span class="fa fa-search"></span>
+				</div>
+			</div>
+			
+			<button type="submit" class="btn btn-outline-success ml-1">OK</button>
+		</form>
+	</div>
+</nav>
+<!-- end menu -->
+<!-- start slideshow -->
+<article id="slideshow" class="carousel slide carousel-fade row" data-ride="carousel">
+
+	<ul class="carousel-indicators">
+		<li data-target="#slideshow" data-slide-to="0" class="active"></li>
+		<li data-target="#slideshow" data-slide-to="1"></li>
+		<li data-target="#slideshow" data-slide-to="2"></li>
+		<li data-target="#slideshow" data-slide-to="3"></li>
+	</ul>
+
+	<section class="carousel-inner">
+		<figure class="carousel-item active">
+			<img src="images/banner1.jpg" class="img-fluid">
+			<figcaption class="carousel-caption d-none d-md-block">
+				<p> SpaceX, é uma empresa de transporte espacial dos Estados Unidos, sediada em Hawthorne, na Califórnia.</p>
+			</figcaption>
+		</figure>
+
+		<figure class="carousel-item">
+			<img src="images/banner2.jpg" class="img-fluid">
+			<figcaption class="carousel-caption d-none d-md-block">
+				<p> Dragon é a designação de uma espaçonave capaz de levar carga e/ou uma tripulação de até sete pessoas à uma órbita terrestre baixa.</p>
+			</figcaption>
+		</figure>
+
+		<figure class="carousel-item">
+			<img src="images/banner3.jpg" class="img-fluid">
+			<figcaption class="carousel-caption d-none d-md-block">
+				<p> O ônibus espacial foi um sofisticado veículo parcialmente reutilizável usado pela NASA como veículo lançador de satélites, nave para suas missões tripuladas de reparos e aparelhos em órbita no espaço e reabastecimento da Estação Espacial Internacional.</p>
+			</figcaption>
+		</figure>
+
+		<figure class="carousel-item">
+			<img src="images/banner4.jpg" class="img-fluid">
+			<figcaption class="carousel-caption d-none d-md-block">
+				<p> O ônibus espacial tornou-se o sucessor da nave Apollo usada durante o Projeto Apollo. O ônibus espacial foi lançado pela primeira vez em 1981 e realizou sua última missão em 2011.</p>
+			</figcaption>
+		</figure>
+	</section>
+
+	<a href="#slideshow" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+	<a href="#slideshow" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+
+	<script>
+		$('#slideshow').carousel({
+			interval: 3000,
+			pause: false,
+		})
+	</script>
+
+</article>
+<!-- end slideshow -->
+<!-- start welcome -->
+<article class="jumbotron jumbotron-fluid row conteudo">
+	<div class="text-light text-center container wow fadeIn">
+		<h2 class="display-3">NASA / AEB</h2>
+		<p class="lead">Alcançamos novas alturas e revelamos o desconhecido em benefício da humanidade</p>
+	</div>
+</article>
+<!-- end welcome -->
+<!-- start special -->
+<article id="special" class="conteudo row bg-white">
+	<div class="container">
+		<section class="row">
+			<div id="banner" class="fsbanner col-md-6">
+				<div style="background-image: url(images/special-01.jpg);">
+					<span class="name">STS-9</span>
+				</div>
+
+				<div style="background-image: url(images/special-02.jpg);">
+					<span class="name">Randy Bresnik</span>
+				</div>
+
+				<div style="background-image: url(images/special-03.jpg);">
+					<span class="name">Steve Bown</span>
+				</div>	
+
+				<div style="background-image: url(images/special-04.jpg);">
+					<span class="name">Space Shuttle</span>
+				</div>
+
+				<script>
+					$("#banner").fsBanner({
+						trigger: 'mouse',
+					});
+				</script>
+			</div>
+
+			<div class="col-md-6">
+				<h2>O que fazemos?</h2>
+				<p>Com base neste crescente conhecimento científico do nosso sistema solar, a NASA está desenvolvendo o foguete e a nave espacial mais avançados para estender a presença humana mais ao espaço do que já fizemos antes. Lançando de um Centro Espacial Kennedy revitalizado na Flórida, o poderoso foguete do Space Launch System da agência irá transportar astronautas a bordo da nave Orion da NASA, passando pela Lua e eventualmente para Marte.</p>
+			</div>
+
+		</section>
+	</div>
+</article>
+<!-- end special -->
+<!-- start counter -->
+<article id="contador" class="row conteudo text-light" data-vide-bg="midia/Space-Animation-Background">
+	<section class="container">
+		<h2 class="text-center text-uppercase titulo2">proximo lançamento</h2>
+	</section>
+	
+	<section class="container">
+		<div class="countdown row">
+			<div class="col-md-3 col-sm-6">
+				<span class="days">00</span><p class="days_ref">dias</p>
+			</div>
+
+			<div class="col-md-3 col-sm-6">
+				<span class="hours">00</span><p class="hours_ref">horas</p>
+			</div>
+
+			<div class="col-md-3 col-sm-6">
+				<span class="minutes">00</span><p class="minutes_ref">minutos</p>
+			</div>
+
+			<div class="col-md-3 col-sm-6">
+				<span class="seconds">00</span><p class="seconds_ref">segundos</p>
+			</div>
+
+			<script>
+				$('.countdown').downCount({
+					date: '05/22/2018 08:00:00', //formato americano
+				});
+			</script>
+
+		</div>
+
+		<p class="text-center mt-3">A nave espacial de carga não-tripulada SpaceX Dragon entrará em órbita, a partir do foguete Falcon 9 do Launch Complex 40 na Estação da Força Aérea de Cabo Canaveral (CCAFS) na Flórida, fornecendo suprimentos e equipamentos para a Estação Espacial Internacional.</p>
+	</section>
+</article>
+<!-- end counter -->
+<!-- start recursos -->
+<article id="recursos" class="conteudo bg-white text-center">
+	<h2 class="text-uppercase titulo2">Nossos Recursos</h2>
+	<p>A NASA já operou e opera inúmeros programas, desde missões interplanetárias a satélites terrestres.</p>
+
+	<div class="container">
+		<section class="row">
+			<div class="col-md-4 col-sm-6 wow slideInLeft">
+				<img src="images/feature1.jpg" class="img-fluid rounded-circle">
+				<h3 class="titulo3 py-4">Programa Mercury</h3>
+				<p>Realizado sob a pressão da concorrência entre os EUA e a União Soviética que existiu durante a Guerra Fria, o Programa Mercury foi iniciado em 1958 e lançou a NASA no caminho da exploração humana do espaço com as missões destinadas a descobrir se o homem poderia sobreviver no espaço sideral. </p>
+			</div>
+
+			<div class="col-md-4 col-sm-6 wow slideInUp">
+				<img src="images/feature2.jpg" class="img-fluid rounded-circle">
+				<h3 class="titulo3 py-4">Ônibus Espacial</h3>
+				<p>O Ônibus Espacial se tornou o foco da NASA no final de 1970 e na década de 1980. Planejados como veículos reutilizáveis, quatro ônibus espaciais foram construídos. O primeiro a ser lançado, em 12 de abril de 1981, foi o Columbia.</p>
+			</div>
+
+			<div class="col-md-4 wow slideInRight">
+				<img src="images/feature3.jpg" class="img-fluid rounded-circle">
+				<h3 class="titulo3 py-4">News Horizons</h3>
+				<p>New Horizons é uma missão não-tripulada da NASA para estudar o planeta-anão Plutão e o Cinturão de Kuiper. Ela foi a primeira espaçonave a sobrevoar Plutão, e a fotografar suas pequenas luas Caronte, Nix, Hydra, Cérbero e Estige em 14 de julho de 2015.</p>
+			</div>
+		</section>
+	</div>
+</article>
+<!-- end recursos -->
+<!-- start equipe -->
+<article id="equipe" class="conteudo text-light text-center equipe">
+	<div class="container">
+		<h2 class="text-uppercase titulo2">Nossa equipe</h2>
+		<p>Agência Espacial Brasileira (AEB) é a uma autarquia do Ministério da Ciência, Tecnologia e Inovação responsável pelo programa espacial do Brasil. </p>
+
+		<div class="row">
+			<section id="tecnologia" class="col-lg-6">
+				<h3 class="pb-4">Tecnologia</h3>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="images/work1.jpg" class="img-fluid rounded-circle">
+					</div>
+
+					<div class="col-md-6">
+						<h4 class="py-4">Veículo de Transferência</h4>
+						<p class="text-left">O Veículo de Transferência é uma nave não tripulada usada para reabastecimento na Estação Espacial Internacional.</p>
+					</div>
+				</div>
+				
+				<div class="row mt-5">
+					<div class="col-md-6">
+						<img src="images/work2.jpg" class="img-fluid rounded-circle">
+					</div>
+
+					<div class="col-md-6">
+						<h4 class="py-4">Radio Telescópio</h4>
+						<p class="text-left">Um radiotelescópio é uma antena especializada e receptor de rádio usado para receber ondas de rádio de fontes de rádio astronômicas no céu em rádio-astronomia.</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="astronautas" class="col-lg-6">
+				<h3 class="pb-4">Nossos Astronautas</h3>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="images/work-img1.jpg" class="img-fluid rounded">
+						<h4 class="py-4">Marcos Pontes</h4>
+						<p>Foi o primeiro astronauta brasileiro lançado com a tripulação da Expedição 13, a partir do Cosmódromo de Baikonur, no Cazaquistão, em 29 de março de 2006, a bordo de uma nave espacial Soyuz.</p>
+					</div>
+
+					<div class="col-md-6">
+						<img src="images/work-img2.jpg" class="img-fluid rounded">
+						<h4 class="py-4">Niel Armstrong</h4>
+						<p> Foi um astronauta dos Estados Unidos que escreveu seu nome na história ao ser o primeiro homem a pisar na Lua, como comandante da missão Apollo 11, em 20 de julho de 1969.</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+</article>
+<!-- end equipe -->
+<!-- start serviços -->
+<article id="servicos" class="conteudo bg-white text-center">
+	<div class="container">
+		<h2 class="titulo2 text-uppercase">Nossos serviços</h2>
+		<p class="py-4">31 missões já foram encerradas e em 2010 quase noventa estão ainda em andamento</p>
+
+		<section class="row">
+			<div class="col-lg-3 col-sm-6 wow zoomIn">
+				<span class="fa fa-fighter-jet p-3 rounded"></span>
+				<h4 class="py-4">Avião de Caça</h4>
+				<p>é um tipo de avião militar concebido para combate aéreo (com outros aviões), em oposição ao bombardeiro, desenhado para atacar alvos terrestres através de bombas.</p>
+			</div>
+
+			<div class="col-lg-3 col-sm-6 wow zoomIn">
+				<span class="fa fa-plane py-3 px-4 rounded"></span>
+				<h4 class="py-4">Aviação Comercial</h4>
+				<p>é um conjunto que inclui as técnicas e as ciências para a fabricação, manutenção e operação segura de aeronaves destinadas ao transporte de carga e/ou passageiros.</p>
+			</div>
+
+			<div class="col-lg-3 col-sm-6 wow zoomIn">
+				<span class="fa fa-rocket py-3 px-4 rounded"></span>
+				<h4 class="py-4">Foguete Espacial</h4>
+				<p>é constituído por uma estrutura que serve para albergar os tanques de combustível e oxidante (comburente), um motor de propulsão por reação e uma carga útil.</p>
+			</div>
+
+			<div class="col-lg-3 col-sm-6 wow zoomIn">
+				<span class="fa fa-space-shuttle p-3 rounded"></span>
+				<h4 class="py-4">Ônibus Espacial</h4>
+				<p>o Columbia foi o segundo ônibus espacial construído, baseado no Enterprise, e foi o primeiro com uma missão tripulada, sua construção começou em 1975.</p>
+			</div>
+		</section>
+	</div>
+</article>
+<!-- end serviços -->
+<!-- start galeria -->
+<article id="galeria" class="conteudo text-center text-light galeria">
+	<h2 class="titulo2 text-uppercase">Nossa Galeria</h2>
+	<p>Veja abaixo alguns de nossos projetos</p>	
+	
+	<section class="gallery container">
+		<a href="images/gallery01.jpg"><img src="images/thumb-gallery01.jpg"></a>
+		<a href="images/gallery02.jpg"><img src="images/thumb-gallery02.jpg"></a>
+		<a href="images/gallery03.jpg"><img src="images/thumb-gallery03.jpg"></a>
+		<a href="images/gallery04.jpg"><img src="images/thumb-gallery04.jpg"></a>
+		<a href="images/gallery05.jpg"><img src="images/thumb-gallery05.jpg"></a>
+		<a href="images/gallery06.jpg"><img src="images/thumb-gallery06.jpg"></a>
+		<a href="images/gallery07.jpg"><img src="images/thumb-gallery07.jpg"></a>
+		<a href="images/gallery08.jpg"><img src="images/thumb-gallery08.jpg"></a>
+		<a href="images/gallery09.jpg"><img src="images/thumb-gallery09.jpg"></a>
+		<a href="images/gallery10.jpg"><img src="images/thumb-gallery10.jpg"></a>
+		<a href="images/gallery11.jpg"><img src="images/thumb-gallery11.jpg"></a>
+		<a href="images/gallery13.jpg"><img src="images/thumb-gallery12.jpg"></a>
+	</section>
+
+	<script>
+		$(function(){
+			var gallery = $('.gallery a').simpleLightbox({
+				showCounter: false,
+				closeText: '',
+			});
+		});
+	</script>
+
+</article>
+<!-- end galeria -->
+<!-- start apollo -->
+<article id="apollo" class="conteudo bg-white">
+	<h2 class="titulo2 text-center text-uppercase">A missão Apollo</h2>
+
+	<div class="container">
+		<section class="row">
+			<div id="spy" class="list-group col-md-4">
+				<a href="#projeto" class="list-group-item list-group-item-action active">O projeto</a>
+				<a href="#missao" class="list-group-item list-group-item-action">As missões</a>
+				<a href="#foguete" class="list-group-item list-group-item-action">Foguetes</a>
+				<a href="#resultado" class="list-group-item list-group-item-action">Resultados</a>
+			</div>
+
+			<div data-spy="scroll" data-target="#spy" data-offset="0" class="col-md-8 scrollspy">
+				<h4 id="projeto">O projeto</h4>
+				<p>O sonho de atingir a Lua representava uma ambição humana antiga, ficcionalizada por muitos autores (cf. "De la Terre à la Lune", de 1865, Júlio Verne, onde um canhão gigante é usado como mecanismo de propulsão), mas tornada possível no século XX, em resultado do avanço tecnológico e científico quer no domínio da aeronáutica, como no da computação automática.</p>
+
+				<p>Os projetos Mercury, Gemini e Apollo foram uma resposta dos Estados Unidos à URSS, por esta ter posto o satélite Sputnik 1 em órbita e, logo em seguida, ter posto em órbita o primeiro humano, Yuri Gagarin. Em um famoso discurso de 25 de maio de 1961, John F. Kennedy lançou o desafio de, antes de a década terminar, "enviar homens à Lua e retorná-los a salvo".
+				</p>
+
+				<audio src="midia/Discurso_de_Kennedy.ogg" controls class="d-block mx-auto"></audio>
+
+				<h4 id="missao">As missões</h4>
+				<p>Havia, na época da definição do projeto, três possibilidades de voo para a Lua: uma baseada na ideia de um único e imenso foguete que iria decolar da Terra, pousar na Lua e retornar; outra baseada na ideia de rendez-vous (encontro em órbita) na órbita da Terra, em que o foguete encontraria um outro estágio em órbita da Terra; e, finalmente, o rendez-vous lunar, que significa que um pequeno módulo desceria ao solo da Lua e depois encontraria em órbita a nave de retorno. Esta última opção foi a escolhida pelos engenheiros da Nasa para o projeto Apollo.</p>
+
+				<p>Em cada missão Apollo, foram enviados três astronautas; dois desciam na Lua usando o Módulo Lunar (comandante e piloto do Módulo Lunar) e um permanecia em órbita no Módulo de Comando (piloto do Módulo de Comando).</p>
+
+				<p>No total, foram feitas onze missões tripuladas no projeto Apollo, e seis delas pousaram na Lua, no total de doze astronautas que caminharam no solo lunar e lá fizeram experimentos científicos.</p>
+
+				<h4 id="foguete">Foguetes lançadores</h4>
+				<p>Todas as missões tripuladas Apollo, exceções apenas as Apollo 7, Skylab e Apollo 18, que fizeram uso do Saturno IB, foram lançadas ao espaço com o uso dos gigantescos foguetes Saturno V, de três estágios, 110m de altura, e 2,7 milhões de kg, propelido pelos cinco poderosos motores F-1 do primeiro estágio, mais os motores J-2 dos estágios seguintes.</p>
+
+				<p>Os três estágios do foguete, chamados S-IC (primeiro estágio), S-II (segundo estágio) e S-IVB (terceiro estágio), usavam oxigênio líquido (lox) como oxidante. O primeiro estágio usava RP-1 como combustível, enquanto os segundo e terceiro estágios usavam hidrogênio líquido. A nave era composta de três partes (além do foguete): Módulo de Comando; Módulo de Serviço; e Módulo Lunar.</p>
+
+				<p>O Módulo de Comando é a cápsula, em formato cônico, que os astronautas ocupavam durante a maior parte da viagem, e era a única parte que reentrava na atmosfera terrestre, caindo de pára-quedas. O Módulo de Serviço continha os equipamentos de manutenção de vida (como os cilindros de oxigênio) e motores. O Módulo Lunar, como o nome indica, servia para a descida no solo lunar e para o regresso à órbita da Lua, para o encontro com os outros dois módulos que lá permaneciam em órbita.</p>
+
+				<h4 id="resultado">Resultados do projeto</h4>
+				<p>Neil A. Armstrong, o primeiro homem a pisar na Lua, imortalizou o momento, resumindo muito do que foi o projeto Apollo, na famosa frase: "um pequeno passo para um homem, um salto gigantesco para a humanidade".</p>
+
+				<video src="midia/Ap16_rover.ogv.360p.webm" controls class="d-block mx-auto"></video>
+
+				<p>Desde a missão Apollo 17, em dezembro de 1972, nenhum homem pisou no solo lunar, e muitas das descobertas científicas que poderiam ter sido feitas ficaram adiadas para quando houvesse novamente interesse em desvendá-las.</p>
+
+				<p>É importante lembrar que ainda houve quatro voos que usaram a nave Apollo: Skylab II, III e IV (três missões cujo objetivo era trabalhar na estação espacial estadunidense Skylab) e Apollo 18 (que acoplou com a nave soviética Soyuz 19 e, por isto ficou conhecida como missão Apollo-Soyuz).</p>
+			</div>
+		</section>
+	</div>
+</article>
+<!-- end apollo -->
+<!-- start clientes -->
+<article id="clientes" class="conteudo bg-white text-white">
+	<div class="container">
+		<h2 class="titulo2 text-center text-uppercase">Nossos Clientes</h2>
+		<p class="text-center">O que nossos clientes dizem</p>		
+
+		<section class="row justify-content-around">
+			<div class="card col-lg-3 col-md-5 col-sm-6 bg-success animated">
+				<img src="images/test1.jpg" class="card-img-top mt-3">
+				<div class="card-body">
+					<h4 class="card-title">Johnny Cage</h4>
+					<p class="card-text">Tornou-se chocantemente óbvio que a nossa tecnologia excedeu a nossa humanidade.</p>
+				</div>
+			</div>
+
+			<div class="card col-lg-3 col-md-5 col-sm-6 bg-warning animated">
+				<img src="images/test2.jpg" class="card-img-top mt-3">
+				<div class="card-body">
+					<h4 class="card-title">Laura Crisp</h4>
+					<p class="card-text">Trocava toda minha tecnologia por uma tarde com Sócrates.</p>
+				</div>
+			</div>
+
+			<div class="card col-lg-3 col-md-5 col-sm-6 mt-md-2 mt-lg-0 bg-danger animated" >
+				<img src="images/test3.jpg" class="card-img-top mt-3">
+				<div class="card-body">
+					<h4 class="card-title">Willian Hannah</h4>
+					<p class="card-text">A tecnologia só é tecnologia para quem nasceu antes dela ter sido inventada.</p>
+				</div>
+			</div>
+		</section>
+	</div>		
+</article>
+<!-- end clientes -->
+<!-- start videos -->
+<article class="conteudo bg-white">
+	<h2 class="titulo2 text-center text-uppercase">Nossos vídeos</h2>
+
+	<ul class="nav nav-pills justify-content-center mb-4">
+		<li class="nav-item"><a href="#nav-tab-01" class="nav-link active" data-toggle="pill">Vídeo 01</a></li>
+		<li class="nav-item"><a href="#nav-tab-02" class="nav-link" data-toggle="pill">Vídeo 02</a></li>
+		<li class="nav-item"><a href="#nav-tab-03" class="nav-link" data-toggle="pill">Vídeo 03</a></li>
+		<li class="nav-item"><a href="#nav-tab-04" class="nav-link" data-toggle="pill">Vídeo 04</a></li>
+	</ul>
+
+	<div class="container tab-content">
+		<section class="tab-pane fade show active" id="nav-tab-01">
+			<div class="row">
+				<div class="embed-responsive embed-responsive-16by9 col-md-6">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/iAwbmjcGMZk" frameborder="0" allowfullscreen class="embed-responsive-item"></iframe>
+				</div>
+				<div class="col-md-6">
+					<p>Novos dados revelam que o asteróide interestelar que recentemente foi fechado através do nosso sistema solar é rochoso, em forma de charuto e com um tom um pouco avermelhado. É o primeiro objeto confirmado de outra estrela observada em nosso sistema solar, e foi descoberto em 19 de outubro pela equipe de telescópios Pan-STARRS1 da Universidade do Havaí, financiada pelo Programa de Observações de Objetos de Terceira Terra da NASA. A equipe do telescópio chamou-o de 'Oumuamua (oh MOO-uh MOO-uh) - havaiano para "um mensageiro de longe chegando primeiro." O asteróide de forma incomum, que é até um quarto de milha de comprimento e talvez 10 vezes mais que é amplo, pode fornecer pistas novas sobre como outros sistemas solares se formaram.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="tab-pane fade show" id="nav-tab-02">
+			<div class="row">
+				<div class="embed-responsive embed-responsive-16by9 col-md-6">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/O-woH3u7hJk" frameborder="0" allowfullscreen class="embed-responsive-item"></iframe>
+				</div>
+				<div class="col-md-6">
+					<p>O nosso Telescópio Espacial James Webb está agora fora da histórica unidade de vácuo de Chamber A no nosso Centro Espacial Johnson em Houston, depois de completar testes criogênicos projetados para garantir que o telescópio funcione bem no ambiente frio e sem ar. Definido para lançamento em 2019, a Webb estudará todas as fases da história do nosso Universo, começando com os primeiros brilhos luminosos seguindo o Big Bang. Além disso, a próxima missão de Mars Rover da NASA, os novos trens da tripulação da estação espacial para o lançamento, a atualização para o próximo lançamento do SpaceX para a estação espacial, o par gigante de buracos negros Photobombs Andromeda Galaxy e o Centro Histórico de Controle de Missão Apollo serão restaurados!</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="tab-pane fade show" id="nav-tab-03">
+			<div class="row">
+				<div class="embed-responsive embed-responsive-16by9 col-md-6">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/gDHUDFwUkfw" frameborder="0" allowfullscreen class="embed-responsive-item"></iframe>
+				</div>
+				<div class="col-md-6">
+					<p>Uma nave espacial de carga Orbital ATK Cygnus chegou à Estação Espacial Internacional em 14 de novembro, carregando cerca de 7.400 libras de material e materiais científicos e de pesquisa. O Cygnus - nomeado após o astronauta da UTI Eugene Cernan - foi lançado dois dias antes do nosso Wallops Flight Facility em Virgínia. O Cygnus também transportou vários pequenos satélites projetados para realizar demonstrações de tecnologia de comunicação a laser, pesquisa sobre os efeitos da microgravidade na resistência antibiótica bacteriana e uma variedade de outros estudos.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="tab-pane fade show" id="nav-tab-04">
+			<div class="row">
+				<div class="embed-responsive embed-responsive-16by9 col-md-6">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/nr4Sozvo5aU" frameborder="0" allowfullscreen class="embed-responsive-item"></iframe>
+				</div>
+				<div class="col-md-6">
+					<p>Durante o eclipse, 14 estados em todo os EUA estavam no caminho da totalidade e experimentaram mais de dois minutos de escuridão no meio do dia - com um eclipse parcial visível em toda a América do Norte. A transmissão - Eclipse Across America: através dos olhos da NASA - locais cobertos ao longo do caminho da totalidade, de Oregon a Carolina do Sul, incluindo reações públicas de todas as idades. O longo caminho do eclipse sobre a terra proporcionou uma oportunidade única para estudar o Sol, a Terra, a Lua e sua interação.</p>
+				</div>
+			</div>
+		</section>
+	</div>
+</article>
+<!-- end videos -->
+<!-- start statistics -->
+<article id="stats" class="conteudo text-center text-secondary stats">
+	<div class="container">
+		<h2 class="titulo2 text-uppercase">Nossos Números</h2>
+
+		<section class="row mt-5">
+			<div class="col-md-3 grid">
+				<span class="numscroller" data-min="0" data-max="1200" data-increment="2" data-delay="3">0</span>
+				<h4>Seguidores</h4>
+			</div>
+
+			<div class="col-md-3 grid">
+				<span class="numscroller" data-min="0" data-max="320" data-increment="1" data-delay="3">0</span>
+				<h4>Suporte</h4>
+			</div>
+
+			<div class="col-md-3 grid">
+				<span class="numscroller" data-min="0" data-max="3560" data-increment="5" data-delay="3">0</span>
+				<h4>Clientes</h4>
+			</div>
+
+			<div class="col-md-3 grid">
+				<span class="numscroller" data-min="0" data-max="96" data-increment="1" data-delay="3">0</span>
+				<h4>Prêmios</h4>
+			</div>
+		</section>
+	</div>
+</article>
+<!-- end statistics -->
+<!-- start mapa -->
+<div id="mapa" class="conteudo">
+	<iframe class="googlemaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3707.2732508163067!2d-45.89949828548201!3d-21.692110685642838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ca6b310a64f323%3A0x9ecc3a078d5481f5!2sIFSULDEMINAS+-+Campus+Machado!5e0!3m2!1spt-BR!2sbr!4v1480717318607"></iframe>
+</div>
+<!-- end mapa -->
+<!-- start contato -->
+<article id="contato" class="conteudo text-white">
+	<div class="container">
+		<h2 class="titulo2 text-center text-uppercase">entre em Contato</h2>
+		<p class="text-center">Envie-nos um email contando a sua opinião.</p>
+	
+		<form class="row">
+			<section class="col-md-6">
+				<input id="name" name="name" placeholder="Nome" type="text" required class="form-control">
+				
+				<input id="email" name="email" placeholder="Email" type="email" required class="form-control">
+				
+				<div class="row">
+					<input type="text" id="city" name="city" placeholder="cidade" class="form-control col-md-9 ml-3">
+					
+					<select name="estate" id="estate" class="form-control col-md-2 ml-3">
+						<option value="ES">ES</option>
+						<option value="MG" selected>MG</option>
+						<option value="RJ">RJ</option>
+						<option value="SP">SP</option>
+					</select>
+				</div>
+				
+				<input type="checkbox" checked class="mr-2 mt-3">Deseja receber nossas newsletters?
+			</section>
+
+			<section class="col-md-6">
+				<textarea id="message" name="message" placeholder="Mensagem" rows="5" class="form-control"></textarea>
+			</section>
+
+			<section class="mt-2 mx-auto">
+				<button type="reset" class="btn btn-danger">Limpar</button>
+				<button type="submit" class="btn btn-success">Enviar</button>
+			</section>
+		</form>
+	</div>
+</article>
+<!-- end contato -->
+<!-- start rodape -->
+<footer class="rodape row p-5 text-white">
+	<div class="col-md-4">
+		<h2>Nosso Contato</h2>
+		<p><span class="fa fa-globe mr-2"></span> 21 Jack Street, Newyork, USA.</p>
+		<p><span class="fa fa-mobile mr-2"></span> +15 15151515</p>
+		<p><span class="fa fa-fax mr-2"></span> +00 10101010</p>
+		<p><span class="fa fa-envelope mr-2"></span> myemail@example.com</p>
+	</div>
+
+	<div class="col-md-4">
+		<h2>Links Rápidos</h2>
+		<p><a href="#"><span class="fa fa-home mr-2"></span> Home</a></p>
+		<p><a href="#"><span class="fa fa-star mr-2"></span> Recursos</a></p>
+		<p><a href="#"><span class="fa fa-cogs mr-2"></span> Equipe</a></p>
+		<p><a href="#"><span class="fa fa-server mr-2"></span> Serviços</a></p>
+		<p><a href="#"><span class="fa fa-camera mr-2"></span> Galeria</a></p>
+		<p><a href="#"><span class="fa fa-share-square mr-2"></span> Contato</a></p>
+	</div>
+
+	<ul class="col-md-4 list-inline">
+		<li class="list-inline-item"><a href="#"><span class="fa fa-facebook"></span></a></li>
+		<li class="list-inline-item"><a href="#"><span class="fa fa-twitter"></span></a></li>
+		<li class="list-inline-item"><a href="#"><span class="fa fa-linkedin"></span></a></li>
+		<li class="list-inline-item"><a href="#"><span class="fa fa-google-plus"></span></a></li>
+	</ul>
+
+	<div class="container text-center">
+		<div id="copyright">
+			<p>&copy; 2018 Rocket Industry | Todos os direitos reservados. </p>
+			<p>Feito com <span class="fa fa-heart wow pulse" data-wow-iteration= "infinite" data-wow-delay="300ms" data-wow-duration="1s"></span>por Raquel Della Torre</p>
+		</div>
+	</div>
+</footer>
+<!-- end rodape -->
+<!-- start back-to-top -->
+	<div id="back-to-top" class="seta">
+		<span class="fa fa-arrow-circle-o-up"></span>
+
+	</div>
+<!-- end back-to-top -->
+</div>
+<!-- end interface -->
+</body>
+</html>

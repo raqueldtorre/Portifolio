@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Viga');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Overlock+SC');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+ 
+@font-face{
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-family: 'roboto';
+}
+@font-face{
+	src: url(../fonts/Cinzel-Regular.ttf);
+	font-family: 'Cinzel';
+}
+
+@font-face{
+	src: url(../fonts/Cinzel-Regular.ttf);
+	font-family: 'Overlock SC';
+}
+
+
+@font-face{
+	src: url(../fonts/Lobster-Regular.ttf);
+	font-family: 'Lobster', cursive;
+}
+/* START MENU */
+img{
+	height: auto;
+}
+
+#logo{
+	width: 100px;
+	margin-left: 100px;
+}
+
+.navbar img{
+    height: 55px;
+    width: 75px;
+}
+
+.navbar{
+	background-color: #fff;
+}
+
+.navbar .menulink{
+	font-family: 'Overlock SC';
+	font-size: 1.8rem;
+	color: black;
+}
+
+.navbar .menulink:hover{
+	color: black;
+}
+
+.membros img{
+	width: 35px;
+	height: 35px;
+}
+
+.membros a{
+	font-size: 10px;
+}
+
+.bareffect li a::before,
+.bareffect li a::after{
+	content: '';
+	background-color: black;
+	width: 100%;
+	height: 0.125rem;
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.bareffect li a::before{
+	top: 0;
+	transform: translateY(0.625rem);
+}
+
+.bareffect li a::after{
+	bottom: 0;
+	transform: translateY(-0.625rem);
+}
+
+.bareffect li a:hover::before,
+.bareffect li a:hover::after{
+	opacity: 1;
+	transform: translateY(0);
+}
+/* END MENU */
+
+/* start banner*/
+/*.carousel-item img{
+	width: 400px;
+	height: 1000px;
+	height: auto;
+	width: auto;
+}*/
+/* end banner*/
+
+/* START QUEM SOMOS */
+.historia p{
+	font-family: 'Overlock SC';
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.titulo2{
+ 	color:#32CD32 ;
+	padding-top: 2rem;
+	padding-bottom:2rem;
+	font-family: 'Overlock SC';
+	font-weight: bold;
+}
+
+.legenda{
+	color: #fff;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-weight: bolder;
+	font-family: 'Lobster';
+	/*font-size: 20px;*/
+}
+/* END QUEM SOMOS*/
+
+/* START UTILIDADES*/
+.servicos .card img{
+	height: 330px;
+	width:460px;
+}
+
+.servicos .card{
+	height: 440px;
+	width:320px;
+}
+
+.servicos{
+	background-image:url(../Imagens/fundoserv2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#descproducao{
+	text-decoration: none;
+}
+
+#imgproducao, #imgcalculadora{
+	width: 500px;
+	height: 300px;
+}
+
+#imgestreia{
+	width: 400px;
+	height: 300px;
+}
+/* END UTILIDADES*/
+
+/* START FALE CONOSCO*/
+#fale{
+ 	background-color:#fff;
+}
+
+#fale h2{
+ 	color:#32CD32 ;
+ 	background-color:#fff;
+}
+/* END FALE CONOSCO */
+
+
+/* START FOOTER */
+footer {
+    color: #fff;
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+}
+
+.footer-above {
+    padding-top: 30px;
+    background:#A9A9A9;
+}
+
+.footer-col {
+    margin-bottom: 50px;
+}
+
+.footeraltura{
+    height: 120px !important;
+    /*width: 794px;*/
+}
+
+.footer-below {
+    padding: 25px 0;
+    background-color:#A9A9A9;
+}
+
+footer img{
+	width: 70px;
+	height: 70px;
+}
+
+footer  h3{
+	font-family: 'Overlock SC';
+	font-size: 2.0rem;	
+}
+
+.contatofooter h6{
+	font-family: 'Overlock SC';
+	font-size: 10px;
+}
+/* END FOOTER*/
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px){
+	.bareffect li a::before,
+	.bareffect li a::after{
+		width: 7rem;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.titulo2{
+		font-size:2rem;
+	}
+}
+
+@media screen and (max-width: 767px){
+	#footer{
+   		height: 1000px;
+	}
+}
+
+

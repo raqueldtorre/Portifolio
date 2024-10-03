@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Viga');
+
+@font-face{
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-family: 'roboto';
+}
+
+body{
+	font-family: 'roboto';
+	background-color: #000;
+}
+
+.conteudo{
+	padding-top: 6rem;
+	padding-bottom: 4rem;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.titulo2{ 
+	font-family: 'Viga', arial;
+	font-size: 3rem;
+}
+
+.titulo3{
+	font-size: 2rem;
+}
+
+/* start menu */
+nav#menu{
+	background-color: #000;
+}
+
+.titulo1{
+	color: #fff;
+	font-size: 2rem;
+	font-weight: 600;
+	font-family: 'Viga', sans-serif;
+}
+
+.titulo1:hover{
+	color: #fff;
+}
+
+.menulink{
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+.menulink:hover{
+	color: #fff;
+}
+
+
+.bareffect li a::before,
+.bareffect li a::after{
+	content: '';
+	background-color: #fff;
+	width: 100%;
+	height: 0.125rem;
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.bareffect li a::before{
+	top: 0;
+	transform: translateY(0.625rem);
+}
+
+.bareffect li a::after{
+	bottom: 0;
+	transform: translateY(-0.625rem);
+}
+
+.bareffect li a:hover::before,
+.bareffect li a:hover::after{
+	opacity: 1;
+	transform: translateY(0);
+}
+
+input[type="search"],
+input[type="search"]:focus{
+	background-color: transparent; /* rgba(0,0,0,0)*/
+	color: #fff;
+}
+
+input[type="search"]::placeholder{
+	color: #fff;
+}
+
+.fa-bars{
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+/* start jumbotron */
+.jumbotron{
+	background-color: #000;
+}
+
+/* start equipe */
+.equipe{
+	background-image: url(../images/work.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* start servicos */
+article#servicos .fa{
+	font-size: 3.125rem;
+	color: #fff;
+	background-color: #080;
+	transition: background-color 0.5s;
+}
+
+article#servicos .fa:hover{
+	background-color: #060;
+}
+
+/* start galeria */
+.galeria{
+	background-image: url(../images/gallery.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;	
+}
+
+.galeria a{
+	border: 0.1875rem solid #fff;
+	margin: 10px;
+	display: inline-block;
+	border-radius: 15px;
+	overflow: hidden;
+	transition: transform 0.5s;
+}
+
+.galeria a:hover{
+	transform: scale(1.2);
+}
+
+/* start apollo */
+.scrollspy{
+	height: 31.25rem;
+	overflow: scroll;
+}
+
+.scrollspy::-webkit-scrollbar {
+	display: none;
+}
+
+/* start clientes */
+article#clientes{
+	background-image: url(../images/mission.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/*start estatisticas*/
+.grid{
+	border: 1px solid #fff;
+	font-size: 3rem;
+	padding: 3rem;
+}
+
+.stats{
+	background-image: url(../images/stats.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;	
+}
+
+.stats h4{
+	color: #090;
+}
+
+/*start mapa*/
+.googlemaps{
+	width: 100%;
+	height: 50vh;
+}
+
+/*start contato*/
+article#contato{
+	background-image: url(../images/contact.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;	
+}
+
+input#name,
+input#email,
+input#city,
+select#estate,
+textarea#message{
+	margin-bottom: 10px;
+	border: 1px solid #fff;
+	border-radius: 0;
+	background-color: transparent;
+	color: #fff;
+}
+
+/*Start rodape*/
+
+.rodape{
+	background-image: url(../images/footer.png);
+}
+
+.rodape a{
+		color: #fff;
+}
+
+.rodape a:hover{
+
+		text-decoration: none;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-linkedin,
+.fa-google-plus{
+	font-size: 1.5rem;
+	width: 52px;
+	height: 52px;	
+	border-radius: 50%;
+	text-align: center;
+	line-height: 54px;
+}
+
+.fa-facebook{
+	background-color: #3b5998;
+}
+
+.fa-twitter{
+	
+	background-color: #55acee;
+}
+
+.fa-linkedin{
+	background-color: #e68523;
+}
+
+.fa-google-plus{
+
+	background-color: #dc4e41
+}
+input#name::placeholder,
+input#email::placeholder,
+input#city::placeholder,
+select#estate::placeholder,
+textarea#message::placeholder{
+	color: #fff;
+	text-align: center;
+}
+
+option{
+	color: #000;
+}
+
+/*Start back-to-to*/
+.seta{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	color: #fff;
+	font-size: 20px;
+	border: 1px solid #fff;
+	border-radius:10px; 
+	background-color:rgb(0,0,0,0.5);
+	padding: 10px;
+	opacity: 0.4;
+	transition: opacity 0.5s;
+}
+
+.seta:hover{
+	opacity: 1;
+}
+
+.fa-heart{
+	color: #900;
+	font-size: 2rem;
+}
+
+/* media queries */
+@media screen and (max-width: 1024px){
+	.bareffect li a::before,
+	.bareffect li a::after{
+		width: 7rem;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.titulo2{
+		font-size: 2rem;
+	}
+}

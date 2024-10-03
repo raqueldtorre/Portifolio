@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Seja Feliz sem Moderação</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="icons/rainbow-flag.png" >
+
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/carousel-fade.css">
+	<link rel="stylesheet" href="css/fsbanner.css">
+	<link rel="stylesheet" href="css/countdown.css">
+	<link rel="stylesheet" href="css/simplelightbox.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/estilos.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.downCount.js"></script>
+	<script src="js/simple-lightbox.js"></script>
+	<script src="js/backtotop.js"></script>
+	<script src="js/wow.min.js"></script>
+
+	<script>
+		new WOW().init();
+	</script>
+
+</head>
+<body>
+
+<!-- start interface -->
+<div id="interface" class="container-fluid">
+
+<!-- start menu -->	
+<nav id="menu" class="navbar navbar-expand-xl row">
+	<header>
+		<a href="#" class="navbar-brand titulo1 text-center">Seja Feliz</a>
+		<a href="#" class="navbar-brand titulo1 text-center">sem Moderação</a>
+
+	</header>
+</nav>
+<!-- end menu -->
+<!-- start galeria -->
+<article id="galeria" class="conteudo text-center text-light galeria">
+	<h2 class="titulo2 text-uppercase">Nossos Projetos</h2>
+	
+	<section class="gallery container">
+		<a href="bayard-rustin.html"><img class="img-fluid" src="images/bayardr.jpg"></a>
+		<a href="frida-kahlo.html"><img class="img-fluid" src="images/fridak.jpg"></a>
+		<a href="ifti-nasim.html"><img class="img-fluid" src="images/Iftin.jpg"></a>
+		<a href="karl-ulrichs.html"><img class="img-fluid" src="images/karll.jpg"></a>
+		<a href="nancy-cardenas.html"><img class="img-fluid" src="images/nancyn.jpg"></a>
+		<a href="simon-nkoli.html"><img class="img-fluid" src="images/simonk.jpg"></a>
+	<script>
+		$(function(){
+			var gallery = $('.gallery a').simpleLightbox({
+				showCounter: false,
+				closeText: '',
+			});
+		});
+	</script>
+
+</article>
+<!-- end galeria -->
+<!-- start rodape -->
+<footer class="rodape row p-5 text-white">
+	<div class="container text-center">
+		<div id="copyright">
+			<p>&copy; Seja Feliz <span class="fa fa-heart wow pulse" data-wow-iteration= "infinite" data-wow-delay="300ms" data-wow-duration="1s"></span></p>
+		</div>
+	</div>
+</footer>
+<!-- end rodape -->
+</div>
+<!-- end interface -->
+</body>
+</html>
