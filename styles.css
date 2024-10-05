@@ -35,11 +35,33 @@ section {
     margin-bottom: 40px;
 }
 
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.projetos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .projeto {
     background: #f4f4f4;
     padding: 15px;
-    margin: 15px 0;
+    margin: 15px;
     border-radius: 5px;
+    width: 200px; /* Largura dos quadrados */
+    height: 150px; /* Altura fixa para os quadrados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o texto dentro do projeto */
+}
+
+.projeto h3 {
+    font-size: 1.2em; /* Tamanho do título */
+    margin-bottom: 10px; /* Espaço abaixo do título */
 }
 
 .link-projeto {
@@ -51,9 +73,3 @@ section {
     text-decoration: underline;
 }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
