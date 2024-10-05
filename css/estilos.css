@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Viga');
+
+@font-face{
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-family: 'roboto';
+}
+
+body{
+	font-family: 'roboto';
+	background-color: #EAE2E2;
+	text-decoration: none;
+	
+}
+h1{
+	color: #000;
+}
+
+.conteudo{
+	padding-top: 6rem;
+	padding-bottom: 4rem;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.titulo2{ 
+	font-family: 'Viga', arial;
+	font-size: 3rem;
+}
+
+.titulo3{
+	font-size: 2rem;
+}
+
+
+
+
+/* start galeria */
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os links horizontalmente */
+    margin-top: 20px;
+}
+
+.link-projeto {
+    background: #050505; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 20px 30px; /* Aumenta o tamanho do quadrado */
+    margin: 15px; /* Espaçamento entre os links */
+    border-radius: 8px; /* Cantos arredondados */
+    text-align: center; /* Centraliza o texto */
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+    transition: background 0.3s; /* Efeito de transição */
+}
+
+.link-projeto:hover {
+    background: #88B04B /* Cor de fundo ao passar o mouse */
+}
+
+/*Start rodape*/
+
+.rodape{
+	background-color: #EAE2E2
+}
+
+.rodape p{
+		color: #000;
+
+}
+a:hover{
+color: #000;
+		text-decoration: none;
+}
+
+

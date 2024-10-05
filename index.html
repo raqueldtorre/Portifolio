@@ -1,55 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<title>Meu Portfólio</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/estilos.css">
+
+
+
 </head>
 <body>
-    <header>
-        <h1>Meu Portfólio</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="sobre">
-            <h2>Sobre Mim</h2>
-            <p>Sou uma desenvolvedora apaixonada por criar soluções inovadoras. Tenho experiência em HTML, CSS e JavaScript, e estou sempre em busca de aprender mais e aprimorar minhas habilidades. Meu objetivo é ajudar empresas a alcançarem seus objetivos através de tecnologia.</p>
-        </section>
-        
-        <section id="projetos">
-            <h2>Meus Projetos</h2>
-            <div class="projeto">
-                <h3>Cervart</h3>
-                <p><a class="link-projeto" href="Cervart/index.html">Visualizar Projeto</a></p>
-            </div>
-            <div class="projeto">
-                <h3>Seja Feliz Sem Moderação</h3>
-                <p><a class="link-projeto" href="SejaFeliz/index.html">Visualizar Projeto</a></p>
-            </div>
-            <div class="projeto">
-                <h3>Rocket Industry</h3>
-                <p><a class="link-projeto" href="RocketIndustry/index.html">Visualizar Projeto</a></p>
-            </div>
-            <div class="projeto">
-                <h3>Fanta</h3>
-                <p><a class="link-projeto" href="fanta-website-main/index.html">Visualizar Projeto</a></p>
-            </div>
-            <div class="projeto">
-                <h3>Auto Posto</h3>
-                <p><a class="link-projeto" href="ProjetoAutoPosto/index.html">Visualizar Projeto</a></p>
-            </div>
-        </section>
-    </main>
-    
-    <footer>
-        <p>© 2024 Maria Raquel. Todos os direitos reservados.</p>
-    </footer>
+
+<!-- start interface -->
+<div id="interface" class="container-fluid">
+
+<!-- start galeria -->
+<article id="galeria" class="conteudo text-center galeria">
+	<h1 class="titulo2 text-uppercase">Projetos</h1>
+	
+	<section class="gallery container">
+        <a class="link-projeto" href="Cervart/index.html"><h2>Cervart</h2></a>
+		<a class="link-projeto" href="SejaFeliz/index.html"><h2>Seja Feliz</h2></a>
+		<a class="link-projeto" href="RocketIndustry/index.html"><h2>Rocket Industry</h2></a>
+		<a class="link-projeto" href="fanta-website-main/index.html"><h2>Fanta</h2></a>
+		<a class="link-projeto" href="ProjetoAutoPosto/index.html"><h2>Auto Posto</h2></a>
+    </section>
+</article>
+<!-- end galeria -->
+<!-- start rodape -->
+<footer class="rodape row p-5 text-white">
+	<div class="container text-center">
+		<div id="copyright">
+			<p>© Todos os direitos reservados.</p>
+		</div>
+	</div>
+</footer>
+<!-- end rodape -->
+</div>
+<!-- end interface -->
 </body>
 </html>
