@@ -1,0 +1,28 @@
+.mynavbar{
+    background-image: url(../Imagens/fundo.jpg);
+    height: 500px;
+}
+
+.navbar{
+    background-color: transparent !important;
+}
+
+.navbar img{
+    height: 55px;
+    width: 75px;
+
+}
+
+.menulink{
+    
+    color: #fff;
+    font-size: 1.5rem; 
+}
+
+.navbar .navbar-nav{
+    margin:0 auto;
+}
+
+.navbar .nav-item a{
+    color: #fff !important;
+}

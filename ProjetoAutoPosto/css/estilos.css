@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Viga');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Overlock+SC');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+@font-face{
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-family: 'roboto';
+}
+@font-face{
+	src: url(../fonts/Cinzel-Regular.ttf);
+	font-family: 'Cinzel';
+}
+
+@font-face{
+	src: url(../fonts/Cinzel-Regular.ttf);
+	font-family: 'Overlock SC';
+}
+
+
+@font-face{
+	src: url(../fonts/Lobster-Regular.ttf);
+	font-family: 'Lobster', cursive;
+}
+/* star menu */
+
+img{
+	height: auto;
+}
+
+
+.logo{
+	font-family: 'Lobster';
+	font-size: 2.0rem;
+	color: #3E4095;
+}
+.navbar img{
+    height: 55px;
+    width: 75px;
+
+}
+
+.navbar{
+	background-color: #fff;
+}
+
+
+.navbar .menulink{
+	font-family: 'Lobster';
+	font-size: 1.8rem;
+	color:#3E4095;
+}
+
+.navbar .menulink:hover{
+	color:#392cb9;
+}
+
+/* end menu */
+
+/* star header*/
+.autoposto{
+   background-image: url(../Imagens/fundo.jpg);
+   background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;height: 630px;
+}
+
+.autoposto h1{
+	font-family: 'Lobster';
+	font-size: 9.2rem;
+	padding-top:7rem;
+
+}
+
+.teste{
+	background-color:rgba(0,0,40,0.5);
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* end header*/
+.conteudo{
+	padding-top:4rem;
+	padding-bottom: 4rem;
+	width: 100%;
+	height: 100%;
+}
+
+.titulo2{
+	color:#2f2495;
+	text-transform: uppercase;
+	padding-top: 2rem;
+	padding-bottom:2rem;
+	font-family: 'Overlock SC';
+	font-weight: bold;
+}
+
+.titulo1{
+	color:#fff;
+	text-transform: uppercase;
+	padding-top: 2rem;
+	padding-bottom:2rem;
+	font-family: 'Overlock SC';
+	font-weight: bold;
+}
+
+/* Star historia */
+
+
+
+.historia p{
+	font-family: 'Cinzel', serif;
+	font-size: 25px;
+}
+
+/* end historia*/
+
+
+/* Start Serviços*/
+
+.servicos .card img{
+	height: 330px;
+	width:460px;
+}
+
+
+.servicos .card{
+	height: 440px;
+	width:320px;
+}
+
+.servicos{
+	background-image:url(../Imagens/95ee8696f8ed1abb3767928c4d0daf65.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+/* Star Fidelidade */ 
+
+.fidelidade h3{
+	font-family: 'Cinzel', serif;
+	text-align:center;
+	font-size: 36px;
+}
+
+
+.fidelidade img{
+	width: 140px;
+	height:160px;
+}
+
+.vantagens img{
+	width: 50px;
+	height: 50px;
+}
+
+
+.center-block {
+  float:none;
+}
+
+ h4{
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+}
+
+.textop p{
+	font-family: 'Cinzel', serif;
+	font-size: 18px;
+	padding-bottom: 25px;
+}
+
+/* fale conosco*/
+ 
+ #fale{
+ 	background-color: #16284C;
+ }
+
+/* end fale conosco */
+
+
+/* Contato */
+
+.contato img{
+	width: 28px;
+	height: 28px;
+}
+
+.contato h3{
+	color: #392cb4;
+}
+
+.contato p {
+	font-size: 30px;
+	padding-left: 10px;
+}
+
+
+
+
+
+
+/* Footer */
+footer {
+            color: #fff;
+        }
+
+        footer li{
+        	list-style: none;
+        	display: inline-block;
+        }
+
+        footer h3 {
+            margin-bottom: 30px;
+        }
+
+        footer .footer-above {
+            padding-top: 50px;
+            background: #3C3D41;
+
+        }
+
+        footer .footer-col {
+            margin-bottom: 50px;
+        }
+
+        footer .footer-below {
+            padding: 25px 0;
+            background-color:#3C3D41;
+        }
+
+footer img{
+	width: 45px;
+	height: 45px;
+}
+
+footer .logofooter img{
+    height: 55px;
+    width: 70px;
+}
+
+footer  h3{
+	font-family: 'Lobster';
+	font-size: 2.0rem;
+	
+}
+
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (max-width: 1024px){
+	.bareffect li a::before,
+	.bareffect li a::after{
+		width: 7rem;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.titulo2{
+		font-size:2rem;
+	}
+
+	
+}
+
+
