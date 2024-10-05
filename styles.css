@@ -73,38 +73,6 @@ section {
     text-decoration: underline;
 }
 
-/* Estilos do formulário de contato */
-form {
-    display: flex;
-    flex-direction: column; /* Alinha os campos do formulário verticalmente */
-}
-
-label {
-    margin: 5px 0;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    background: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #0056b3;
-}
-
 /* Estilos do rodapé */
 footer {
     background: #333;
