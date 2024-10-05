@@ -1,3 +1,4 @@
+/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -27,36 +28,35 @@ nav a {
     text-decoration: none;
 }
 
+/* Estilos do conteúdo principal */
 main {
     padding: 20px;
 }
 
+/* Seção Sobre */
 section {
     margin-bottom: 40px;
 }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
+/* Estilos dos projetos */
 .projetos-container {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os projetos horizontalmente */
+    flex-wrap: wrap; /* Permite que os projetos se movam para a linha seguinte se não houver espaço */
 }
 
 .projeto {
     background: #f4f4f4;
     padding: 15px;
-    margin: 15px;
+    margin: 10px; /* Margem entre os quadrados */
     border-radius: 5px;
     width: 200px; /* Largura dos quadrados */
     height: 150px; /* Altura fixa para os quadrados */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center; /* Centraliza o texto dentro do projeto */
+    display: flex;
+    flex-direction: column; /* Alinha o texto verticalmente */
+    justify-content: space-between; /* Distribui o espaço entre os elementos dentro do quadrado */
 }
 
 .projeto h3 {
@@ -73,3 +73,42 @@ footer {
     text-decoration: underline;
 }
 
+/* Estilos do formulário de contato */
+form {
+    display: flex;
+    flex-direction: column; /* Alinha os campos do formulário verticalmente */
+}
+
+label {
+    margin: 5px 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Estilos do rodapé */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
